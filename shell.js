@@ -1,7 +1,7 @@
 (function () {
   if (location.pathname === '/') {
     document.body.style.visibility = 'hidden';
-    document.querySelector('button').click();
+    //document.querySelector('button').click();
   } else {
     shell_window();
   }
